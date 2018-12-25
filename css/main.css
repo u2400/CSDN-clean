@@ -1,4 +1,4 @@
-.box-shadow,.custom-box,.recommend-box,.pulllog-box,#asideFooter,.hide-article-box,[id*="ad"]{
+.box-shadow,.custom-box,.recommend-box,.pulllog-box,#asideFooter,.hide-article-box,._360_interactive,[id*="ad"]{
     display: none !important;
 }
 
