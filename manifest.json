@@ -3,6 +3,12 @@
 	"name": "CSDN-clean",
 	"version": "1.0.0",
 	"description": "",
+	"icons":
+	{
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
 	"page_action":
 	{
 		"default_icon": "img/icon.gif",
@@ -13,7 +19,7 @@
 	[
 		{
 			"matches": ["http://*.csdn.net/*", "https://*.csdn.net/*"],
-			"js": ["js/main.js"],
+			"js": ["js/jquery.js","js/main.js"],
 			"css": ["css/main.css"],
 			"run_at": "document_start"
 		}

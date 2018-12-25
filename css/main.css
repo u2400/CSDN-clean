@@ -1,3 +1,8 @@
-.pulllog-box{
-    display: none;
+.box-shadow,.custom-box,.recommend-box,.pulllog-box,#asideFooter,.hide-article-box,[id*="ad"]{
+    display: none !important;
+}
+
+.article_content{
+    height: auto !important;
+    overflow: auto !important;
 }
