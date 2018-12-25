@@ -6,16 +6,15 @@
 	"page_action":
 	{
 		"default_icon": "img/icon.gif",
-		"default_title": "我是pageAction",
-		"default_popup": "popup.html"
+		"default_title": "",
+		"default_popup": ""
 	},
-	"注释": "需要直接注入页面的JS:",
 	"content_scripts": 
 	[
 		{
-			"注释": "可以使用 <all_urls> 表示匹配所有地址",
 			"matches": ["http://*.csdn.net/*", "https://*.csdn.net/*"],
 			"js": ["js/main.js"],
+			"css": ["css/main.css"],
 			"run_at": "document_start"
 		}
 	]
