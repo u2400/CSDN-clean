@@ -15,7 +15,7 @@
 		{
 			"注释": "可以使用 <all_urls> 表示匹配所有地址",
 			"matches": ["http://*.csdn.net/*", "https://*.csdn.net/*"],
-			"js": ["js/clean.js"],
+			"js": ["js/main.js"],
 			"run_at": "document_start"
 		}
 	]
