@@ -11,7 +11,7 @@
 	},
 	"page_action":
 	{
-		"default_icon": "img/icon.gif",
+		"default_icon": "img/icon.png",
 		"default_title": "",
 		"default_popup": ""
 	},
