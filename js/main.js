@@ -7,6 +7,8 @@ document.addEventListener('keydown',function(){ //监听ctrl-c事件
 document.addEventListener('copy',function(){ //监听鼠标右键的copy事件
     event.stopPropagation(); //同上
 },true);
+//js is fun!!
+
 // var ad = $('iframe');
 // for (let i in ad)
 // {
